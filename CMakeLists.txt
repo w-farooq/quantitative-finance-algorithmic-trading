@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 4.2)
+project(quantative_finance_and_algorithim_trading_course)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(quantative_finance_and_algorithim_trading_course 01_time_value_of_money/tvm.cpp)

@@ -1,0 +1,35 @@
+# ==========================================
+# JetBrains IDEs (CLion & PyCharm)
+# ==========================================
+.idea/
+
+# ==========================================
+# C++ Build & Executable Artifacts
+# ==========================================
+cmake-build-debug/
+cmake-build-release/
+build/
+*.out
+*.exe
+*.o
+*.a
+*.so
+*.dylib
+
+# ==========================================
+# Python Bytecode & Virtual Environments
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# OS & System Files
+# ==========================================
+.DS_Store
+Thumbs.db
