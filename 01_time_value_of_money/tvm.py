@@ -3,7 +3,7 @@ import math
 present_value = 1000
 r = 0.05
 n = 10
-t = 5
+t = 10
 
 # continuous methods
 def future_value_continuos (pv, r, t) :
