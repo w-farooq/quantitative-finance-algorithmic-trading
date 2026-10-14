@@ -40,8 +40,8 @@ int main() {
     std::cout << "================================= CONTINUOUS METHODS =======================================\n";
     const double future_value_continuous_result {future_value_continuous(present_value, r, t)};
     const double present_value_continuous_result {present_value_continuous(future_value_continuous_result, r, t)};
-    std::cout << "Future Value of " << present_value << " at " << r << " for " << n << " years is " << future_value_continuous_result << "\n";
-    std::cout << "Present Value of " << future_value_continuous_result << " at " << r << " for " << n << " years is " << present_value_continuous_result << "\n";
+    std::cout << "Future Value of " << present_value << " at " << r << " for " << t << " years is " << future_value_continuous_result << "\n";
+    std::cout << "Present Value of " << future_value_continuous_result << " at " << r << " for " << t << " years is " << present_value_continuous_result << "\n";
 
     return 0;
 }
